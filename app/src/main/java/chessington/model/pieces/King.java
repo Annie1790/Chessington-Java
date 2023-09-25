@@ -15,6 +15,16 @@ public class King extends AbstractPiece {
 
     @Override
     public List<Move> getAllowedMoves(Coordinates from, Board board) {
-        return new ArrayList<>();
-    }
+    //     ArrayList<Move> possibleMoves = new ArrayList<>();
+    //     if (colour == PlayerColour.BLACK) {
+    //         Move validMove = new Move(from, from.plus(+1, 0));
+    //         if ()
+    //         possibleMoves.add(validMove);
+    //         return possibleMoves;
+    //     } else {
+    //         Move validMove = new Move(from, from.plus(-1, 0));
+    //         possibleMoves.add(validMove);
+    //         return possibleMoves;
+    //     }
+    // }
 }

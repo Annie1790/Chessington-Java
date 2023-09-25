@@ -21,6 +21,7 @@ public class PawnTest {
 
         // Act
         List<Move> moves = pawn.getAllowedMoves(coords, board);
+        //moves doesnt contain anything?
 
         // Assert
         assertThat(moves).contains(new Move(coords, coords.plus(-1, 0)));
